@@ -90,10 +90,9 @@ These projects were built under the direct mentorship of **visiting industry exp
 
 ***
 
-## 👨‍💻 Author & Acknowledgements
+## 👨‍💻 Acknowledgements
 
-- **Author:** Kaushar Halani
-- **Program:** College Industrial Skill Development Program
-- **Mentorship:** Projects guided by **industry experts** to ensure alignment with current **market standards**
+- **Program:** This work was conducted as part of the College Industrial Skill Development Program, which provides hands-on exposure to industry-relevant projects and skills.  
+- **Mentorship:** Special thanks to the industry experts and academic mentors whose guidance ensured the projects aligned with current market standards and practical business applications. Their valuable insights and support significantly enhanced the learning experience.  
 
 If you find this repository useful, feel free to **star ⭐ the repo** and share it with others interested in practical machine learning projects!
