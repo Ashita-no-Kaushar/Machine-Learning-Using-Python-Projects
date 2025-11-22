@@ -1,0 +1,72 @@
+-----------------------------------------------------------
+
+--- Comprehensive .gitignore for Python ML/Data Science ---
+
+-----------------------------------------------------------
+
+1. Python Artifacts and Environments
+
+pycache/
+*.py[cod]
+*.so
+
+Virtual Environments
+
+venv/
+env/
+.env
+
+2. Data and Processing Artifacts
+
+Raw and processed data (Crucial for keeping repo size down)
+
+dataset/
+data/
+*.csv
+*.tsv
+*.xlsx
+*.parquet
+*.jsonl
+*.feather
+
+3. Model Weights and Serialization
+
+*.pt
+*.pth
+*.onnx
+*.h5
+
+Common ML serialization formats
+
+*.pkl
+*.pickle
+*.joblib
+*.weights # Used by Darknet/some other frameworks
+
+4. YOLO Specific & Caching
+
+runs/       # Ultralytics training/detection output
+wandb/      # Weights & Biases logging data
+*.cache     # Roboflow/Ultralytics cache files
+tmp/        # General temporary directory
+
+5. Notebooks, Logs, and OS Files
+
+.ipynb_checkpoints/ # Jupyter Notebook checkpoints
+*.log
+logs/
+.DS_Store   # macOS
+Thumbs.db   # Windows
+
+6. IDE and Editor Files
+
+.vscode/
+.idea/
+
+7. Documentation and Assets (Explicitly KEEP)
+
+Files starting with '!' are explicitly tracked by Git.
+
+!docs/
+!assets/
+!examples/
